@@ -15,5 +15,11 @@
     - [ ] Target: < 100ms inference for local Wächter.
     - [ ] Profile performance bottlenecks.
 
-## v1.2 (Planned)
-- [ ] Deployment refinement & UI integration (using existing `tools/ui`).
+## v1.2 (Active - Alpha)
+- [x] Deployment refinement & UI integration (using existing `tools/ui`).
+- [x] Visual Watchdog correction & Voice integration (Audit Log monitoring).
+
+## v1.3 (Planned - Next Mission)
+- [ ] **Echtzeit-Akku-Sprachwarnung via NPU-Überwachung:**
+    - [ ] Implementieren einer NPU-gestützten Batterie-Monitor-Schleife.
+    - [ ] Integration von `voice_sentinel.sh` für kritische Spannungs-Warnungen.
