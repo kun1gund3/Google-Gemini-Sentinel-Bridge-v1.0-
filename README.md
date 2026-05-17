@@ -48,7 +48,7 @@ graph TD
     B -->|Autonomous| D[Local Engine: llama-server]
     B -->|Cloud Sync| E[Gemini]
     D -->|Audit| F[Integrity Verified]
-    E -->|Identity| G[Google Mentor Protocol]
+    E -->|Identity| G[Google Mentor]
     F & G --> H[Unified Partner Response]
     H -->|Logging| I[Blackbox-Recorder]
 ```
