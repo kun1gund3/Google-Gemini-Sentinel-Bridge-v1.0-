@@ -1,0 +1,7 @@
+{"sessionId":"b5f53c95-7251-402d-a063-d94cdd9bd104","projectHash":"be36aa850ed33336ee9b50e53a9026eb7feb9c91da12c0a4057f4cc20da851ec","startTime":"2026-05-17T06:37:21.948Z","lastUpdated":"2026-05-17T06:37:21.948Z","kind":"main"}
+{"id":"db8e2979-dc56-4756-bd00-9de4ba8fb8bd","timestamp":"2026-05-17T06:37:26.998Z","type":"user","content":[{"text":"config set api-key"}]}
+{"$set":{"lastUpdated":"2026-05-17T06:37:26.998Z"}}
+{"id":"9963a073-e607-4a44-bdd4-19989b4d77a0","timestamp":"2026-05-17T06:37:30.472Z","type":"error","content":"[API Error: You have exhausted your daily quota on this model.]"}
+{"$set":{"lastUpdated":"2026-05-17T06:37:30.472Z"}}
+{"id":"acc66e12-fea7-496f-9210-a9b343b82dad","timestamp":"2026-05-17T06:37:30.472Z","type":"info","content":"This request failed. Press F12 for diagnostics, or run /settings and change \"Error Verbosity\" to full for full details."}
+{"$set":{"lastUpdated":"2026-05-17T06:37:30.473Z"}}

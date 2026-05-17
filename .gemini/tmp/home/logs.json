@@ -1,0 +1,65 @@
+[
+  {
+    "sessionId": "ded82d9d-fd9e-46c2-9957-4c6c07c8ac3a",
+    "messageId": 0,
+    "type": "user",
+    "message": "config set api-key",
+    "timestamp": "2026-05-17T06:21:51.708Z"
+  },
+  {
+    "sessionId": "ab9b9e72-3fa1-406a-a235-632759544801",
+    "messageId": 0,
+    "type": "user",
+    "message": "ai \"Partner, führe die vollständige Audit-Analyse durch. Scanne alle 13 Projekt-Dateien (GEMINI.md, SKILL.md, package.json etc.), validiere die Sentinel-Bridge und erstelle einen finalen Statusbericht für unser Langzeitgedächtnis.\"",
+    "timestamp": "2026-05-17T06:27:41.926Z"
+  },
+  {
+    "sessionId": "ab9b9e72-3fa1-406a-a235-632759544801",
+    "messageId": 1,
+    "type": "user",
+    "message": "/model",
+    "timestamp": "2026-05-17T06:28:10.376Z"
+  },
+  {
+    "sessionId": "ab9b9e72-3fa1-406a-a235-632759544801",
+    "messageId": 2,
+    "type": "user",
+    "message": "ai \"Partner, führe die vollständige Audit-Analyse durch. Scanne alle 13 Projekt-Dateien (GEMINI.md, SKILL.md, package.json etc.), validiere die Sentinel-Bridge und erstelle einen finalen Statusbericht für unser Langzeitgedächtnis.\"",
+    "timestamp": "2026-05-17T06:28:36.948Z"
+  },
+  {
+    "sessionId": "ab9b9e72-3fa1-406a-a235-632759544801",
+    "messageId": 3,
+    "type": "user",
+    "message": "/settings",
+    "timestamp": "2026-05-17T06:29:07.103Z"
+  },
+  {
+    "sessionId": "b5f53c95-7251-402d-a063-d94cdd9bd104",
+    "messageId": 0,
+    "type": "user",
+    "message": "config set api-key",
+    "timestamp": "2026-05-17T06:37:22.036Z"
+  },
+  {
+    "sessionId": "67df95f4-d476-43e3-9647-5b7058c4dfa3",
+    "messageId": 0,
+    "type": "user",
+    "message": "config set api-key",
+    "timestamp": "2026-05-17T06:38:44.174Z"
+  },
+  {
+    "sessionId": "00b71586-49d2-41a2-97f8-50fefcf32b2a",
+    "messageId": 0,
+    "type": "user",
+    "message": "Führe die vollständige Audit-Analyse aller 13 Dateien durch. Bestätige die Einhaltung der Sicherheits-Standards und erstelle den Abschlussbericht für unser Repository.",
+    "timestamp": "2026-05-17T06:41:43.890Z"
+  },
+  {
+    "sessionId": "00b71586-49d2-41a2-97f8-50fefcf32b2a",
+    "messageId": 1,
+    "type": "user",
+    "message": "/settings",
+    "timestamp": "2026-05-17T06:42:10.879Z"
+  }
+]

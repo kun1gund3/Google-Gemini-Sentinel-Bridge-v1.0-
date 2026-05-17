@@ -1,0 +1,9 @@
+models/
+llama.cpp/
+litert-lm/
+node_modules/
+api_key.txt
+.env
+.gemini/api_key.txt
+.gemini/*.json
+*.db

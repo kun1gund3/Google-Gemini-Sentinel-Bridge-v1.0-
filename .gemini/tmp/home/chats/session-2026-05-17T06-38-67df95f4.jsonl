@@ -1,0 +1,11 @@
+{"sessionId":"67df95f4-d476-43e3-9647-5b7058c4dfa3","projectHash":"be36aa850ed33336ee9b50e53a9026eb7feb9c91da12c0a4057f4cc20da851ec","startTime":"2026-05-17T06:38:44.085Z","lastUpdated":"2026-05-17T06:38:44.085Z","kind":"main"}
+{"id":"60994ace-298a-4c35-951c-8993b0945395","timestamp":"2026-05-17T06:38:48.821Z","type":"info","content":"Switched to fallback model gemini-3.1-pro-preview-customtools"}
+{"$set":{"lastUpdated":"2026-05-17T06:38:48.821Z"}}
+{"id":"edaea812-124a-4c75-b970-69dd51d35722","timestamp":"2026-05-17T06:38:51.587Z","type":"info","content":"Switched to fallback model gemini-3-flash-preview"}
+{"$set":{"lastUpdated":"2026-05-17T06:38:51.588Z"}}
+{"id":"5ef47362-b12b-4042-8229-0c7741bbcc3a","timestamp":"2026-05-17T06:38:54.579Z","type":"user","content":[{"text":"config set api-key"}]}
+{"$set":{"lastUpdated":"2026-05-17T06:38:54.580Z"}}
+{"id":"0f2d868f-ed88-406f-9d71-463752ef4ce4","timestamp":"2026-05-17T06:39:08.956Z","type":"error","content":"[API Error: You have exhausted your daily quota on this model.]"}
+{"$set":{"lastUpdated":"2026-05-17T06:39:08.957Z"}}
+{"id":"28c7f10c-9da6-4044-9502-cecc6023d2eb","timestamp":"2026-05-17T06:39:08.957Z","type":"info","content":"This request failed. Press F12 for diagnostics, or run /settings and change \"Error Verbosity\" to full for full details."}
+{"$set":{"lastUpdated":"2026-05-17T06:39:08.957Z"}}
