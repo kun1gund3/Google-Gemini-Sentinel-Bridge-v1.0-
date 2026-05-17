@@ -46,7 +46,7 @@ graph TD
     A[User Terminal] -->|ai command| B{Sentinel Bridge}
     B -->|Local Check| C[SQLite Memory]
     B -->|Autonomous| D[Local Engine: llama-server]
-    B -->|Cloud Sync| E[Gemini 1.5 Flash]
+    B -->|Cloud Sync| E[Gemini]
     D -->|Audit| F[Integrity Verified]
     E -->|Identity| G[Google Mentor Protocol]
     F & G --> H[Unified Partner Response]
