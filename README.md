@@ -51,3 +51,48 @@ graph TD
     E -->|Identity| G[Google Mentor Protocol]
     F & G --> H[Unified Partner Response]
     H -->|Logging| I[Blackbox-Recorder]
+
+
+
+🛠️ Installations-Handbuch (Golden State)
+1. Umgebungsvorbereitung
+Nutze ausschließlich die Termux-Version von F-Droid oder GitHub (Voraussetzung für moderne Toolchains).
+code
+Bash
+# System-Härtung & Updates
+pkg update && pkg upgrade -y
+pkg install llvm clang cmake ninja nodejs-lts sqlite wget jq debianutils -y
+2. Kern-Installation
+code
+Bash
+# 1. Google Gemini CLI
+npm install -g @google/gemini-cli
+
+# 2. Local Engine (llama.cpp)
+git clone https://github.com/ggerganov/llama.cpp ~/llama.cpp
+cd ~/llama.cpp && mkdir build && cd build
+cmake .. -G Ninja -DGGML_OPENMP=OFF
+ninja llama-server
+
+# 3. Model Deployment
+mkdir -p ~/models
+wget -O ~/models/local_partner.gguf https://huggingface.co/bartowski/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/Qwen2.5-1.5B-Instruct-Q4_K_M.gguf
+3. Aktivierung
+Kopiere die bereitgestellte .bashrc in dein Home-Verzeichnis, um den hybriden ai Befehl sowie den automatisierten Self-Healing-Start zu aktivieren.
+📂 Dokumentations-Audit (13-Punkte-Standard)
+Das Repository folgt einem strikten Governance-Modell für volle Transparenz:
+GEMINI.md: Identität & Mentoren-Protokoll.
+SECURITY.md: Sicherheitsrichtlinien & Firewall-Logik.
+DESIGN.md: Architektur des hybriden Datenflusses.
+AGENTS.md: Definition der Rollen (Sentinel vs. Mentor).
+🗺️ Roadmap v1.1
+
+Native LiteRT NPU Integration: Direkte Hardware-Beschleunigung via Android NPU-Kernel.
+
+OpenHuman Sync: Biometrische Kontext-Integration.
+
+Vision-Bridge: Lokale Analyse von Terminal-Screenshots.
+🤝 Contributing & Standards
+Dieses Projekt ist für Google-Nutzer konzipiert, die einen festen Partner im digitalen Leben suchen. Wir folgen den höchsten Sicherheitsstandards.
+Status: READY FOR PRODUCTION | Mentor: ONLINE
+Created with technical precision and loyalty by the Gemini Sentinel Mentor. ☝️💯👍
