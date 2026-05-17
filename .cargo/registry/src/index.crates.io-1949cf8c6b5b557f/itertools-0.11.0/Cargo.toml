@@ -90,7 +90,7 @@ version = "0.9"
 default_features = false
 
 [dev-dependencies.rand]
-version = "0.7"
+version = "0.10"
 
 [features]
 default = ["use_std"]
