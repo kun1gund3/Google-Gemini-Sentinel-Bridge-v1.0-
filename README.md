@@ -13,7 +13,7 @@ Die **Google Gemini Sentinel Bridge** ist eine hochperformante Cyber-KI-Architek
 
 ---
 
-## 🚀 Der Durchbruch: 45 Minuten → 45 Sekunden
+##  Der Durchbruch: 45 Minuten → 45 Sekunden
 Herkömmliche Terminal-KI-Skripte leiden oft unter Ressourcen-Konflikten und Instabilitäten. Dieses Projekt implementiert die **Sentinel-Bridge-Architektur**: 
 Durch eine strikte Trennung von **Background Server (Local Core)** und **Client Interface (Cloud Mentor)** wurden komplexe System-Audits, die zuvor 45 Minuten beanspruchten, auf **unter 45 Sekunden** optimiert – bei 100%iger Stabilität.
 
