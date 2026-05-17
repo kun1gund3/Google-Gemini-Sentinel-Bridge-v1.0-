@@ -82,7 +82,8 @@ ninja llama-server
 # 3. Model Deployment
 mkdir -p ~/models
 wget -O ~/models/local_partner.gguf https://huggingface.co/bartowski/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/Qwen2.5-1.5B-Instruct-Q4_K_M.gguf
-3. Aktivierung
+
+# 4. Aktivierung
 Kopiere die bereitgestellte .bashrc in dein Home-Verzeichnis, um den hybriden ai Befehl sowie den automatisierten Self-Healing-Start zu aktivieren.
 
 
