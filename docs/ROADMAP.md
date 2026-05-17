@@ -25,3 +25,8 @@
     - [x] Asynchrone Datenverarbeitung für Sensor-Daten.
     - [x] Optimierung der `visual_watchdog.sh` und `battery_guardian.sh` für geringere Latenz.
 - [x] Architektur-Review für Echtzeit-Performance.
+
+## v1.4 (In Progress - Alpha)
+- [ ] **Vision-Integration:**
+    - [ ] Implement secure visual data handling protocol.
+    - [ ] Automated screenshot auditing system (`src/screenshot_audit.py`).
