@@ -19,7 +19,9 @@
 - [x] Deployment refinement & UI integration (using existing `tools/ui`).
 - [x] Visual Watchdog correction & Voice integration (Audit Log monitoring).
 
-## v1.3 (Planned - Next Mission)
-- [ ] **Echtzeit-Akku-Sprachwarnung via NPU-Überwachung:**
-    - [ ] Implementieren einer NPU-gestützten Batterie-Monitor-Schleife.
-    - [ ] Integration von `voice_sentinel.sh` für kritische Spannungs-Warnungen.
+## v1.3 (Completed - Zero-Latency Bridge)
+- [x] **Hardware-API Optimierung:**
+    - [x] Implementieren eines Puffer-Mechanismus für `termux-api` Aufrufe zur Eliminierung von Timeouts.
+    - [x] Asynchrone Datenverarbeitung für Sensor-Daten.
+    - [x] Optimierung der `visual_watchdog.sh` und `battery_guardian.sh` für geringere Latenz.
+- [x] Architektur-Review für Echtzeit-Performance.
