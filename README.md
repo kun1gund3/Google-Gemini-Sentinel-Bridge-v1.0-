@@ -51,7 +51,9 @@ graph TD
     E -->|Identity| G[Google Mentor Protocol]
     F & G --> H[Unified Partner Response]
     H -->|Logging| I[Blackbox-Recorder]
+```
 
+---
 
 
 🛠️ Installations-Handbuch (Golden State)
