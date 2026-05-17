@@ -1,0 +1,48 @@
+>/dev/null 2>&1
+    fi
+}
+ai_start_local
+echo -e "\033[1;32m[Mentor]\033[0m Willkommen zurück, Partner. Das System ist revisionssicher."
+echo -e "Drücke [1] für Partner, [2] für Monitoring, [3] für Audit."
+read -n 1 -p "Eingabe: " action
+case $action in
+    1) ai ;;
+    2) htop ;;
+    3) ai "Führe einen vollständigen Audit durch." ;;
+    *) clear ;;
+esac
+cat << 'EOF' > ~/.bashrc
+# ==========================================
+# GOOGLE SENTINEL BRIDGE - v1.1 GOLDEN STATE
+# OPTIMIZED FOR SAMSUNG
+passe dieses script an die entsprechenden pfade an. falls etwas nicht gefunden wird, erstelle einen bericht.
+# Startet das Menü
+menu
+EOF
+source ~/.bashrc
+# 1. Beende alle hängenden Prozesse
+pkill -9 llama-server
+pkill -9 python3
+# 2. Erstelle das S20FE Hardware-Profil für htop (GPU/CPU Balance)
+mkdir -p ~/.config/htop
+cat << 'EOF' > ~/.config/htop/htoprc
+fields=0 48 17 18 38 39 40 2 46 47 1
+sort_key=46
+sort_direction=1
+hide_threads=0
+hide_userland_threads=0
+shadow_other_users=0
+show_thread_names=1
+show_program_path=1
+highlight_base_name=1
+detailed_cpu_time=1
+cpu_count_from_zero=0
+update_process_names=0
+account_guest_in_cpu_meter=1
+color_scheme=0
+delay=15
+left_meters=AllCPUs Memory Swap
+right_meters=Tasks LoadAverage Uptime
+EOF
+ai "Partner, v1.1 ist initialisiert. Führe den 45-Minuten-Test (Vollständiger System-Audit) erneut durch. Validiere die htop-Konfiguration und den WAL-Mode der SQLite-Datenbank. Melde den Erfolg oder identifiziere Anomalien in unter 60 Sekunden."
+/save

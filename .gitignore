@@ -7,3 +7,5 @@ api_key.txt
 .gemini/api_key.txt
 .gemini/*.json
 *.db
+.ssh/
+.termux/
